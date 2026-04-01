@@ -157,6 +157,7 @@ The results demonstrate that machine learning can assist in automated subsurface
 # 💼 Author
 
 Joseph Solomon Aldu
+
 Entry-Level Data Scientist | Machine Learning Engineer
 Focused on applying ML to geoscience and real-world industrial problems.
 
