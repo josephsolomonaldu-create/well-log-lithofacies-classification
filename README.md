@@ -97,3 +97,36 @@ well-log-lithofacies-classification/
 git clone https://github.com/josephsolomonaldu-create/well-log-lithofacies-classification.git
 cd well-log-lithofacies-classification
 pip install -r requirements.txt
+## 📈 Prediction Confidence
+
+- Majority of predictions exceeded 90% confidence
+- Low confidence predictions (<60%) flagged for expert review
+- Right-skewed distribution confirms model reliability
+
+## 🧪 Key EDA Findings
+
+| Feature Pair | Correlation | Explanation |
+|---|---|---|
+| PE vs NM_M | -0.66 | Marine vs non-marine mineralogy |
+| ILD vs PHIND | -0.52 | Archie relationship |
+| ILD vs NM_M | +0.52 | Marine environment resistivity |
+
+## 👤 Author
+
+**Joseph Solomon Aldu**
+🇳🇬 Nigeria | Geologist & Machine Learning Engineer
+
+- 🔗 LinkedIn: [your LinkedIn URL]
+- 🐙 GitHub: github.com/josephsolomonaldu-create
+- 📧 Email: [your email]
+
+## 📚 References
+
+- Chen & Guestrin (2016). XGBoost. KDD 2016
+- Lundberg & Lee (2017). SHAP. NeurIPS 2017
+- Hall (2016). Facies classification. The Leading Edge
+- SEG ML Contest 2016
+
+---
+*Built with ❤️ by a Nigerian geoscientist passionate about 
+bridging petroleum geoscience and machine learning.*
