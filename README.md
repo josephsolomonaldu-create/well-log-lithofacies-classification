@@ -78,3 +78,22 @@ well-log-lithofacies-classification/
 | Logistic Regression | 59.97% | 0.58 |
 | Random Forest | 78.05% | 0.80 |
 | **XGBoost** | **81.14%** | **0.82** |
+## 🔍 SHAP Feature Importance
+
+| Rank | Feature | Mean |SHAP| | Geological Meaning |
+|---|---|---|---|
+| 1 | NM_M | 1.75 | Depositional environment |
+| 2 | GR | 1.50 | Lithology discriminator |
+| 3 | RELPOS | 1.25 | Stratigraphic position |
+| 4 | PE | 0.50 | Mineralogy indicator |
+| 5 | DeltaPHI | 0.45 | Gas effect |
+| 6 | ILD_log10 | 0.40 | Fluid identification |
+| 7 | PHIND | 0.35 | Porosity index |
+| 8 | Depth | 0.25 | Depth proxy |
+
+## ⚙️ Quick Start
+
+```bash
+git clone https://github.com/josephsolomonaldu-create/well-log-lithofacies-classification.git
+cd well-log-lithofacies-classification
+pip install -r requirements.txt
