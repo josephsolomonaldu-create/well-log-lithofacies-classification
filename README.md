@@ -39,3 +39,42 @@ This project presents an end-to-end machine learning pipeline that:
 - 🔍 Applies **SHAP** to explain predictions geologically
 - 📈 Quantifies **prediction confidence** for operational deployment
 - ✅ Structured across **5 professional notebooks**
+## 🗂️ Project Structure
+
+well-log-lithofacies-classification/
+│
+├── 01_Problem_and_Objectives.ipynb
+├── 02_Data_Understanding.ipynb
+├── 03_EDA.ipynb
+├── 04_Preprocessing.ipynb
+├── 05_Modeling_and_Evaluation.ipynb
+│
+├── data/
+│   ├── facies_data.csv
+│   ├── X_train.csv
+│   ├── X_test.csv
+│   ├── y_train.csv
+│   └── y_test.csv
+│
+├── models/
+│   └── scaler.pkl
+│
+└── README.md
+
+---
+
+## 📊 Dataset & Results
+
+| Property | Value |
+|---|---|
+| Total Samples | 3,232 |
+| Training Samples | 2,585 (80%) |
+| Test Samples | 647 (20%) |
+| Classes | 9 Lithofacies |
+| Missing Values | None |
+
+| Model | Accuracy | Macro F1 |
+|---|---|---|
+| Logistic Regression | 59.97% | 0.58 |
+| Random Forest | 78.05% | 0.80 |
+| **XGBoost** | **81.14%** | **0.82** |
